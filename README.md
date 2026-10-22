@@ -5,7 +5,7 @@ Send a CSV file from a laptop to a PYNQ-Z2 over Ethernet, store it in on-chip Bl
 Computer Architecture side project, Fr. C. Rodrigues Institute of Technology (FCRIT), Vashi.
 
 
-![Block design](docs/images/block_design.png)
+![Block design](docs/images/block_design.jpeg)
 
 ## Results
 
@@ -23,7 +23,7 @@ Computer Architecture side project, Fr. C. Rodrigues Institute of Technology (FC
 | Failed routes | 0 |
 | Total on-chip power | 1.406 W (Vivado estimate) |
 
-![Implementation results](docs/images/design_runs.png)
+![Implementation results](docs/images/result.jpeg)
 
 ## How it works
 
