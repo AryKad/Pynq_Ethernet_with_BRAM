@@ -24,6 +24,7 @@ Computer Architecture side project, Fr. C. Rodrigues Institute of Technology (FC
 | Total on-chip power | 1.406 W (Vivado estimate) |
 
 ![Implementation results](docs/images/result.jpeg)
+![Implementatiion design](docs/images/implemented_design.jpeg)
 
 ## How it works
 
