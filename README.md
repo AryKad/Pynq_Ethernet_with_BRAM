@@ -54,7 +54,6 @@ The Ethernet MAC and the TCP/IP stack live in the Zynq processing system and Lin
 | AXI BRAM Controller | AXI4-Lite slave, 8 KB at `0x40000000` |
 | Block Memory Generator | Single-port RAM in BRAM Controller mode |
 
-![Address map](docs/images/address_editor.png)
 
 ## Repository layout
 
@@ -83,7 +82,6 @@ The Ethernet MAC and the TCP/IP stack live in the Zynq processing system and Lin
    Add `--skip-header` if your CSV has a header row. A good run prints
    `OK: board wrote 1024 words to BRAM and verified them`.
 
-![Sender and receiver output](docs/images/terminal_output.png)
 
 ### Verify the BRAM contents yourself
 
@@ -99,8 +97,6 @@ from_bram = np.array(bram.array[:n], dtype=np.uint32).view(np.int32)
 expected = np.loadtxt("data.csv", delimiter=",", dtype=np.int64).flatten().astype(np.int32)
 print("all match:", np.array_equal(from_bram, expected))
 ```
-
-![BRAM readback](docs/images/bram_readback.png)
 
 ### Limits
 
